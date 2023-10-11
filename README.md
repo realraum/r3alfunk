@@ -50,7 +50,10 @@ Ideas on improving/extending existing equipment + adding new equipment
   * Con: requires exclusive dark fiber from R3 funkbude to RX-site (maybe in conjunction with TUGraz projects (?))
 * SDR RX Site with IQ stream to realraum (gigabit? Funkfeuer?) + development of software solution that syncs local TRX (non web-technology based,  GNURadio (?))
   * Pro: Does not require exclusive cable/fiber, could have better latency than websdr, prior work has been done (https://github.com/ka9q/ka9q-radio)
-  * Con: Probably requires a lot of work to become a user friendly solution,
+  * Con: Probably requires a lot of work to become a user friendly solution
+* https://github.com/jks-prv/kiwiclient
+  * Pro: Does not require any new hardware (uses existing KiwiSDR), does not require browser, can be controlled via hamlib/rigctl (sync rigs: https://github.com/daveriesz/rigsync)
+  * Con: Might still have noticeable delay
 
 ## Unsorted Ideas / Brainstorming:
 * QO-100 TRX: Transmit on 2.4 GHz with high power in shack to compensate for coax loss, keep roof instalation minimal (RX dish + LNB + TX antenna, No other active componenets)
