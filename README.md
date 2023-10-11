@@ -6,7 +6,7 @@ Make Realraum Funkraum useable for operation:
  * Be able to transmit on the bands:
    * At least: 40m to 10m + 2m + 70cm
    * Bonus: 80m + 6m + QO-100 uplink (13cm)
- * Be able to receive with lowest attaineble QRM on the band:
+ * Be able to receive with lowest attainable QRM on the band:
    * At least: 40m to 10m + 2m + 70cm
    * Bonus: 80m + 6m + QO-100 downlink (3cm)
  * Be able to transmit and receive digital modes, example: SSTV, HamDRM, ARDOP (connect to Mailboxes), FT-8
