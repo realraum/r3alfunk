@@ -23,10 +23,10 @@ Useable and tested frequencies/modes/facilities/devices
   * Con: High delay (bad for digimodes that require low trx delay ("fast response"))
 
 ### Modes:
-* SSB Voice
-* FT-8
-* SSTV
-* ARDOP (testing in progress, requires lower QRM + low RX delay)
+* SSB Voice (RX in websdr)
+* FT-8 (RX locally + websdr possible)
+* SSTV (RX in websdr)
+* ARDOP (testing in progress, requires lower QRM + low RX delay, only on dummyload)
 
 ### Devices:
 * ICOM IC-7300 (Gebi) -> Digimodes + SSB voice on HF
