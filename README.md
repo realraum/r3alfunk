@@ -61,3 +61,5 @@ Ideas on improving/extending existing equipment + adding new equipment
 * Patch panel for SO239 / PL259 + N type connectors + Patch cords
 * Data synchronization between PCs (R3 NAS?) + "online" logbook
 * "More screens"
+* Use https://luarvique.github.io/ppa/ on a QRM-free location over 0xff or dedicated WLAN (with low delay)
+* 
