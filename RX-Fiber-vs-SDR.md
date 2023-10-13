@@ -45,3 +45,9 @@ Comparison on requirements and possibilities using RFoF or a remote SDR receiver
     - RX site should have lowest possible QRM, network is much easire available than dark fiber
     - Latency should be very low (optimizing software is necessary)
     - Network connection should be exclusive or at least better than LTE (direct WiFi link? 0xFF?)
+
+
+
+## Link collection:
+https://www.aliexpress.com/item/1005004469195950.html
+https://www.aliexpress.com/item/1005003386290408.html
