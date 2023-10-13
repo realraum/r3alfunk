@@ -54,6 +54,9 @@ Ideas on improving/extending existing equipment + adding new equipment
 * https://github.com/jks-prv/kiwiclient
   * Pro: Does not require any new hardware (uses existing KiwiSDR), does not require browser, can be controlled via hamlib/rigctl (sync rigs: https://github.com/daveriesz/rigsync)
   * Con: Might still have noticeable delay, no waterfall
+* SDR++ Server (https://github.com/AlexandreRouma/SDRPlusPlus):
+  * Pro: Supports multiple receivers, looks feature laden, server + client software made for each other
+  * Con: Not tested yet, no known 
 
 ## Unsorted Ideas / Brainstorming:
 * QO-100 TRX: Transmit on 2.4 GHz with high power in shack to compensate for coax loss, keep roof instalation minimal (RX dish + LNB + TX antenna, No other active componenets)
