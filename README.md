@@ -69,4 +69,8 @@ Ideas on improving/extending existing equipment + adding new equipment
 * redesign WebSDR/SDR buffer to
   * support more simultaneous users
   * allow receiving/downloading/schedule recording raw I/Q for a particular slice of spectrum
+  * implement https://github.com/argilo/SigMF for metadata
   * allow integration of multiple receiver locations
+* replace OpenWebRX with something more user friendly, in particular on mobile
+* find suitable protocols for control and data plane
+* find out what Aronia is doing
