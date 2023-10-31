@@ -65,4 +65,8 @@ Ideas on improving/extending existing equipment + adding new equipment
 * Data synchronization between PCs (R3 NAS?) + "online" logbook
 * "More screens"
 * Use https://luarvique.github.io/ppa/ on a QRM-free location over 0xff or dedicated WLAN (with low delay)
-* 
+* work on https://github.com/ka9q/ka9q-radio as backend for SDR++ or other useful GUI
+* redesign WebSDR/SDR buffer to
+  * support more simultaneous users
+  * allow receiving/downloading/schedule recording raw I/Q for a particular slice of spectrum
+  * allow integration of multiple receiver locations
