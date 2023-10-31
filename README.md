@@ -73,4 +73,4 @@ Ideas on improving/extending existing equipment + adding new equipment
   * allow integration of multiple receiver locations
 * replace OpenWebRX with something more user friendly, in particular on mobile
 * find suitable protocols for control and data plane
-* find out what Aronia is doing
+* look at what Aaronia is doing https://aaronia.com/de/shop/spectrum-analyzer/real-time/compact-usb/spectran-v6-x/spectran-v6-rsa-2000x
