@@ -74,3 +74,4 @@ Ideas on improving/extending existing equipment + adding new equipment
 * replace OpenWebRX with something more user friendly, in particular on mobile
 * find suitable protocols for control and data plane
 * look at what Aaronia is doing https://aaronia.com/de/shop/spectrum-analyzer/real-time/compact-usb/spectran-v6-x/spectran-v6-rsa-2000x
+* consider advanced signal processing to get rid of noise, distortion, etc, inspired by tools like this: https://www.steinberg.net/de/spectralayers/
