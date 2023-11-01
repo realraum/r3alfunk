@@ -21,12 +21,14 @@ Useable and tested frequencies/modes/facilities/devices
 * Manually synchronized Websdr (https://websdr.iks.tugraz.at/kw)
   * Pro: Low QRM
   * Con: High delay (bad for digimodes that require low trx delay ("fast response"))
+* Currently Testing: SDR++ with rigsync and rigctld (see https://github.com/realraum/r3alfunk/blob/main/SDRpp_experience_test.md)
 
 ### Modes:
-* SSB Voice (RX in websdr)
-* FT-8 (RX locally + websdr possible)
-* SSTV (RX in websdr)
-* ARDOP (testing in progress, requires lower QRM + low RX delay, only on dummyload)
+* __[SUCCESSFUL QSOs]__ SSB Voice (RX in websdr)
+* __[SUCCESSFUL QSOs]__ FT-8 (RX locally + websdr possible)
+* __[SUCCESSFUL QSOs]__ SSTV (RX in websdr)
+* __[TESTING]__ HAMDRM (RX with SDR++ or websdr for verifying own signal)
+* __[TESTING]__ ARDOP (testing in progress, requires lower QRM + low RX delay, only on dummyload)
 
 ### Devices:
 * ICOM IC-7300 (Gebi) -> Digimodes + SSB voice on HF
