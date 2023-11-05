@@ -77,3 +77,4 @@ Ideas on improving/extending existing equipment + adding new equipment
 * find suitable protocols for control and data plane
 * look at what Aaronia is doing https://aaronia.com/de/shop/spectrum-analyzer/real-time/compact-usb/spectran-v6-x/spectran-v6-rsa-2000x
 * consider advanced signal processing to get rid of noise, distortion, etc, inspired by tools like this: https://www.steinberg.net/de/spectralayers/
+* world clock with grayline, DIY project, similar to https://www.wimo.com/de/geochron-atlas
