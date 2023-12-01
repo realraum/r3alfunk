@@ -15,13 +15,14 @@ Make Realraum Funkraum useable for operation:
 ## Current State
 Useable and tested frequencies/modes/facilities/devices
 ### TX:
-* 20m vertical Groundplane
+* 40m, 30m, 20m, 15m, 12m, 10m vertical Groundplane
+* 80m, (40m, 20m, 15m, 10m) horizontal loop (full-size for 80m)
 
 ### RX:
-* Manually synchronized Websdr (https://websdr.iks.tugraz.at/kw)
+* __[DEPRECATED]:__ Manually synchronized Websdr (https://websdr.iks.tugraz.at/kw)
   * Pro: Low QRM
   * Con: High delay (bad for digimodes that require low trx delay ("fast response"))
-* Currently Testing: SDR++ with rigsync and rigctld (see https://github.com/realraum/r3alfunk/blob/main/SDRpp_experience_test.md)
+* __[TESTING]:__ SDR++ with modified version of [rigsync](https://github.com/GNUFox/rigsync) and rigctld (see https://github.com/realraum/r3alfunk/blob/main/SDRpp_experience_test.md)
 
 ### Modes:
 * __[SUCCESSFUL QSOs]__ SSB Voice (RX in websdr)
@@ -38,25 +39,26 @@ Useable and tested frequencies/modes/facilities/devices
 ## Ideas
 Ideas on improving/extending existing equipment + adding new equipment
 ### TX
-* Add more elements to the vertical setup, as described by ernst -> multiband vertical -> 40m - 10m HAM-radio band coverage
-* Try horizontal loop on 80m with 4:1 BalUn that can handle at least 100W continuos (old balun melted)
-* Install Facilities for raising / lowering wires in the attic at the very top of the roof
+* __[DONE]__ Add more elements to the vertical setup, as described by ernst -> multiband vertical -> 40m - 10m HAM-radio band coverage
+* __[CHANGED]__ Try horizontal loop on 80m with 4:1 BalUn that can handle at least 100W continuos (old balun melted)  
+  --> using no balun and only air wound RF-choke works with IC-7300 Tuner
+* __[DONE]__ Install Facilities for raising / lowering wires in the attic at the very top of the roof
 * Install more coax to the roof
 
 ### RX
-* Browser plugin for synchronizing local TRX with websdr frequency
+* __[ABANDONED]__ Browser plugin for synchronizing local TRX with websdr frequency
   * Pro: Any websdr can be used, any local trx can be used (rigctld + hamlib handles abstraction)
   * Con: Always have to "chase" after websdr javascript code changes, no "full control" over the entire system on our part, does not solve the delay problem
-* RF over fiber (RFoF):
+* __[INFO GATHERING]__ RF over fiber (RFoF):
   * Pro: "Exclusive" RX antenna, can be split using passive Fiber splitters ("Beam splitter"), low/no delay, RX can be local (TRX with R/T switch or separate SDR RX)
   * Con: requires exclusive dark fiber from R3 funkbude to RX-site (maybe in conjunction with TUGraz projects (?))
 * SDR RX Site with IQ stream to realraum (gigabit? Funkfeuer?) + development of software solution that syncs local TRX (non web-technology based,  GNURadio (?))
   * Pro: Does not require exclusive cable/fiber, could have better latency than websdr, prior work has been done (https://github.com/ka9q/ka9q-radio)
   * Con: Probably requires a lot of work to become a user friendly solution
-* https://github.com/jks-prv/kiwiclient
+* __[ABANDONED]__ https://github.com/jks-prv/kiwiclient
   * Pro: Does not require any new hardware (uses existing KiwiSDR), does not require browser, can be controlled via hamlib/rigctl (sync rigs: https://github.com/daveriesz/rigsync)
   * Con: Might still have noticeable delay, no waterfall
-* SDR++ Server (https://github.com/AlexandreRouma/SDRPlusPlus):
+* __[TESTING]__  SDR++ Server (https://github.com/AlexandreRouma/SDRPlusPlus):
   * Pro: Supports multiple receivers, looks feature laden, server + client software made for each other
   * Con: Not tested yet, no known 
 
