@@ -1,5 +1,5 @@
 # r3alfunk
-Idea collection for realfunk
+Idea + Status collection for realfunk
 
 ## Goal
 Make Realraum Funkraum useable for operation:
@@ -25,23 +25,23 @@ Useable and tested frequencies/modes/facilities/devices
 * __[TESTING]:__ SDR++ with modified version of [rigsync](https://github.com/GNUFox/rigsync) and rigctld (see https://github.com/realraum/r3alfunk/blob/main/SDRpp_experience_test.md)
 
 ### Modes:
-* __[SUCCESSFUL QSOs]__ SSB Voice (RX in websdr)
+* __[SUCCESSFUL QSOs]__ SSB Voice (RX in websdr + with SDR++)
 * __[SUCCESSFUL QSOs]__ FT-8 (RX locally + websdr possible)
-* __[SUCCESSFUL QSOs]__ SSTV (RX in websdr)
+* __[SUCCESSFUL QSOs]__ SSTV (RX in websdr + with SDR++)
 * __[TESTING]__ HAMDRM (RX with SDR++ or websdr for verifying own signal)
-* __[TESTING]__ ARDOP (testing in progress, requires lower QRM + low RX delay, only on dummyload)
+* __[SUCCESSFUL QSOs]__ ARDOP + pat-winlink (RX with SDR++, sent multiple emails using 80m an a winlink node in austria)
 
 ### Devices:
 * ICOM IC-7300 (Gebi) -> Digimodes + SSB voice on HF
 * Yaesu FT-857 (Jü) -> SSB-Voice + 2m/70cm FM/SSB
-* QJE PS30SWIV (GNU/Fox) -> 30A 13.8V Power supply, allows 100W on HF + 50W on 2m at the same time
+* HIGHTECH (former "C-Netz" cellular network PSU) (R3) -> 60A (?) 13.8V Power supply, allows >100W on HF + 50W on 2m at the same time
 
 ## Ideas
 Ideas on improving/extending existing equipment + adding new equipment
 ### TX
 * __[DONE]__ Add more elements to the vertical setup, as described by ernst -> multiband vertical -> 40m - 10m HAM-radio band coverage
 * __[CHANGED]__ Try horizontal loop on 80m with 4:1 BalUn that can handle at least 100W continuos (old balun melted)  
-  --> using no balun and only air wound RF-choke works with IC-7300 Tuner
+  --> using no balun and only air wound RF-choke works with IC-7300 Tuner on 80m
 * __[DONE]__ Install Facilities for raising / lowering wires in the attic at the very top of the roof
 * Install more coax to the roof
 
