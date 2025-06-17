@@ -80,5 +80,7 @@ Ideas on improving/extending existing equipment + adding new equipment
 * look at what Aaronia is doing https://aaronia.com/de/shop/spectrum-analyzer/real-time/compact-usb/spectran-v6-x/spectran-v6-rsa-2000x
 * consider advanced signal processing to get rid of noise, distortion, etc, inspired by tools like this: https://www.steinberg.net/de/spectralayers/
 * world clock with grayline, DIY project, similar to https://www.wimo.com/de/geochron-atlas
+  
+## QO-100 Brainstorming:
 * LNB Mods https://baltic-lab.com/2023/07/lnb-modification-for-10-ghz-qo-100-satellite-reception/
 * QO-100 Groundstation Ideas https://github.com/realraum/r3alfunk/blob/main/QO100%20f%C3%BCr%20BG15.pdf
