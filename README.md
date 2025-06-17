@@ -81,3 +81,4 @@ Ideas on improving/extending existing equipment + adding new equipment
 * consider advanced signal processing to get rid of noise, distortion, etc, inspired by tools like this: https://www.steinberg.net/de/spectralayers/
 * world clock with grayline, DIY project, similar to https://www.wimo.com/de/geochron-atlas
 * LNB Mods https://baltic-lab.com/2023/07/lnb-modification-for-10-ghz-qo-100-satellite-reception/
+* QO-100 Groundstation Ideas https://github.com/realraum/r3alfunk/blob/main/QO100%20f%C3%BCr%20BG15.pdf
